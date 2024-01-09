@@ -10,7 +10,7 @@ main{
     text-align: center;
 }
 
-main #class-code-wrap{    
+main #class-code-wrap, main #class-name-wrap{    
     width: 70%;
     margin-top: 5%;
 
@@ -18,14 +18,14 @@ main #class-code-wrap{
     background-color: #e0ff00;
 }
 
-main #class-code-wrap h2{
+main #class-code-wrap h2, main #class-name-wrap h2{
     margin: 10% 0 5%;
 
     font-size: 18px;
     color: black;
 }
 
-main #class-code-wrap #code{  
+main #class-code-wrap #code, main #class-name-wrap #code{  
     width: 85%;
     height: 40px;  
     margin: 0 0 10%;
