@@ -1,0 +1,48 @@
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    float: left;
+    width: 100%;
+    margin-top: 60%;
+    
+    text-align: center;
+}
+
+main #class-code-wrap{    
+    width: 70%;
+    margin-top: 5%;
+
+    border-radius: 25px;
+    background-color: #e0ff00;
+}
+
+main #class-code-wrap h2{
+    margin: 10% 0 5%;
+
+    font-size: 18px;
+    color: black;
+}
+
+main #class-code-wrap #code{  
+    width: 85%;
+    height: 40px;  
+    margin: 0 0 10%;
+    border: none;
+    border-radius: 50px;
+
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+footer img{
+    width: 50%;
+    margin-bottom: 10%;
+}
