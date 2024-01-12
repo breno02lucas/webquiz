@@ -43,14 +43,15 @@ main #code-wrap #b-code, main #name-wrap #b-next{
 
 footer{
     position: absolute;
-    width: 100%;
     bottom: 0;
+    float: left;
+    width: 100%;
     text-align: center;
 }
 
 footer img{
     width: 50%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 @media screen and (min-width: 500px) 
@@ -60,4 +61,35 @@ footer img{
         margin: 35% 0;        
     }   
     
+    footer img{
+        width: 40%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (min-width: 1000px) 
+{
+
+    main{
+        margin: 25% 0;        
+    }   
+    
+    footer img{
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 1200px) 
+{
+
+    main{
+        margin: 18% 0;        
+    }   
+}
+
+@media screen and (min-width: 1400px) 
+{
+    main{
+        margin: 10% 0;        
+    }   
 }
