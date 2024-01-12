@@ -10,29 +10,36 @@ main{
     text-align: center;
 }
 
-main #class-code-wrap, main #class-name-wrap{    
-    width: 70%;
+main #code-wrap, main #name-wrap{    
+    width: 90%;
     margin-top: 5%;
 
     border-radius: 25px;
     background-color: #e0ff00;
 }
 
-main #class-code-wrap h2, main #class-name-wrap h2{
+main #code-wrap h2, main #name-wrap h2{
     margin: 10% 0 5%;
 
     font-size: 18px;
     color: black;
 }
 
-main #class-code-wrap #code, main #class-name-wrap #code{  
-    width: 85%;
+main #code-wrap #code, main #name-wrap #name{  
+    width: 80%;
     height: 40px;  
     margin: 0 0 10%;
     border: none;
     border-radius: 50px;
 
     text-align: center;
+}
+
+main #code-wrap #b-code, main #name-wrap #b-next{
+    width: 40px;    
+    height: 40px;
+    border: none;
+    border-radius: 50%;
 }
 
 footer{
