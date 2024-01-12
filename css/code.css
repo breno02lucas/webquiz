@@ -54,7 +54,7 @@ footer img{
     margin-bottom: 5%;
 }
 
-@media screen and (min-width: 500px) 
+@media only screen and (min-width: 500px) 
 {
 
     main{
@@ -67,7 +67,7 @@ footer img{
     }
 }
 
-@media screen and (min-width: 1000px) 
+@media only screen and (min-width: 1000px) 
 {
 
     main{
@@ -79,7 +79,7 @@ footer img{
     }
 }
 
-@media screen and (min-width: 1200px) 
+@media only screen and (min-width: 1200px) 
 {
 
     main{
@@ -87,8 +87,14 @@ footer img{
     }   
 }
 
-@media screen and (min-width: 1400px) 
+@media only screen and (min-width: 1400px) 
 {
+    main{
+        margin: 5% 0;        
+    }   
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1200px) and (orientation:landscape) {
     main{
         margin: 10% 0;        
     }   
